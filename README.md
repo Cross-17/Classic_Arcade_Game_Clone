@@ -1,4 +1,4 @@
-#####Classic Arcade Game Clone
+#Classic Arcade Game Clone
 ### Introduction
 This is a classic arcade game clone.
 ### Functionality
