@@ -1,0 +1,336 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'grunt-cli',
+1 verbose cli   'npm',
+1 verbose cli   'install',
+1 verbose cli   '–save-dev',
+1 verbose cli   'grunt',
+1 verbose cli   'touch',
+1 verbose cli   'Gruntfile.js' ]
+2 info using npm@3.10.3
+3 info using node@v6.5.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readGlobalPackageData
+7 silly fetchPackageMetaData grunt-cli
+8 silly fetchPackageMetaData npm
+9 silly fetchPackageMetaData install
+10 silly fetchPackageMetaData –save-dev
+11 silly fetchPackageMetaData grunt
+12 silly fetchPackageMetaData touch
+13 silly fetchPackageMetaData Gruntfile.js
+14 silly fetchNamedPackageData grunt-cli
+15 silly mapToRegistry name grunt-cli
+16 silly mapToRegistry using default registry
+17 silly mapToRegistry registry https://registry.npmjs.org/
+18 silly mapToRegistry data Result {
+18 silly mapToRegistry   raw: 'grunt-cli',
+18 silly mapToRegistry   scope: null,
+18 silly mapToRegistry   escapedName: 'grunt-cli',
+18 silly mapToRegistry   name: 'grunt-cli',
+18 silly mapToRegistry   rawSpec: '',
+18 silly mapToRegistry   spec: 'latest',
+18 silly mapToRegistry   type: 'tag' }
+19 silly mapToRegistry uri https://registry.npmjs.org/grunt-cli
+20 silly fetchNamedPackageData npm
+21 silly mapToRegistry name npm
+22 silly mapToRegistry using default registry
+23 silly mapToRegistry registry https://registry.npmjs.org/
+24 silly mapToRegistry data Result {
+24 silly mapToRegistry   raw: 'npm',
+24 silly mapToRegistry   scope: null,
+24 silly mapToRegistry   escapedName: 'npm',
+24 silly mapToRegistry   name: 'npm',
+24 silly mapToRegistry   rawSpec: '',
+24 silly mapToRegistry   spec: 'latest',
+24 silly mapToRegistry   type: 'tag' }
+25 silly mapToRegistry uri https://registry.npmjs.org/npm
+26 silly fetchNamedPackageData install
+27 silly mapToRegistry name install
+28 silly mapToRegistry using default registry
+29 silly mapToRegistry registry https://registry.npmjs.org/
+30 silly mapToRegistry data Result {
+30 silly mapToRegistry   raw: 'install',
+30 silly mapToRegistry   scope: null,
+30 silly mapToRegistry   escapedName: 'install',
+30 silly mapToRegistry   name: 'install',
+30 silly mapToRegistry   rawSpec: '',
+30 silly mapToRegistry   spec: 'latest',
+30 silly mapToRegistry   type: 'tag' }
+31 silly mapToRegistry uri https://registry.npmjs.org/install
+32 silly fetchOtherPackageData –save-dev
+33 silly cache add args [ '–save-dev', null ]
+34 verbose cache add spec –save-dev
+35 silly fetchNamedPackageData grunt
+36 silly mapToRegistry name grunt
+37 silly mapToRegistry using default registry
+38 silly mapToRegistry registry https://registry.npmjs.org/
+39 silly mapToRegistry data Result {
+39 silly mapToRegistry   raw: 'grunt',
+39 silly mapToRegistry   scope: null,
+39 silly mapToRegistry   escapedName: 'grunt',
+39 silly mapToRegistry   name: 'grunt',
+39 silly mapToRegistry   rawSpec: '',
+39 silly mapToRegistry   spec: 'latest',
+39 silly mapToRegistry   type: 'tag' }
+40 silly mapToRegistry uri https://registry.npmjs.org/grunt
+41 silly fetchNamedPackageData touch
+42 silly mapToRegistry name touch
+43 silly mapToRegistry using default registry
+44 silly mapToRegistry registry https://registry.npmjs.org/
+45 silly mapToRegistry data Result {
+45 silly mapToRegistry   raw: 'touch',
+45 silly mapToRegistry   scope: null,
+45 silly mapToRegistry   escapedName: 'touch',
+45 silly mapToRegistry   name: 'touch',
+45 silly mapToRegistry   rawSpec: '',
+45 silly mapToRegistry   spec: 'latest',
+45 silly mapToRegistry   type: 'tag' }
+46 silly mapToRegistry uri https://registry.npmjs.org/touch
+47 silly fetchNamedPackageData Gruntfile.js
+48 silly mapToRegistry name Gruntfile.js
+49 silly mapToRegistry using default registry
+50 silly mapToRegistry registry https://registry.npmjs.org/
+51 silly mapToRegistry data Result {
+51 silly mapToRegistry   raw: 'Gruntfile.js',
+51 silly mapToRegistry   scope: null,
+51 silly mapToRegistry   escapedName: 'Gruntfile.js',
+51 silly mapToRegistry   name: 'Gruntfile.js',
+51 silly mapToRegistry   rawSpec: '',
+51 silly mapToRegistry   spec: 'latest',
+51 silly mapToRegistry   type: 'tag' }
+52 silly mapToRegistry uri https://registry.npmjs.org/Gruntfile.js
+53 verbose request uri https://registry.npmjs.org/grunt-cli
+54 verbose request no auth needed
+55 info attempt registry request try #1 at 11:28:49 PM
+56 verbose request id 5fede84190bcce50
+57 http request GET https://registry.npmjs.org/grunt-cli
+58 verbose request uri https://registry.npmjs.org/npm
+59 verbose request no auth needed
+60 info attempt registry request try #1 at 11:28:49 PM
+61 http request GET https://registry.npmjs.org/npm
+62 verbose request uri https://registry.npmjs.org/install
+63 verbose request no auth needed
+64 info attempt registry request try #1 at 11:28:49 PM
+65 http request GET https://registry.npmjs.org/install
+66 silly cache add parsed spec Result {
+66 silly cache add   raw: '–save-dev',
+66 silly cache add   scope: null,
+66 silly cache add   escapedName: null,
+66 silly cache add   name: null,
+66 silly cache add   rawSpec: '–save-dev',
+66 silly cache add   spec: '/Users/Crossbell/Desktop/街机克隆游戏/–save-dev',
+66 silly cache add   type: 'local' }
+67 verbose request uri https://registry.npmjs.org/grunt
+68 verbose request no auth needed
+69 info attempt registry request try #1 at 11:28:49 PM
+70 http request GET https://registry.npmjs.org/grunt
+71 verbose request uri https://registry.npmjs.org/touch
+72 verbose request no auth needed
+73 info attempt registry request try #1 at 11:28:49 PM
+74 http request GET https://registry.npmjs.org/touch
+75 info retry will retry, error on last attempt: TypeError: The header content contains invalid characters
+76 info retry will retry, error on last attempt: TypeError: The header content contains invalid characters
+77 info retry will retry, error on last attempt: TypeError: The header content contains invalid characters
+78 info retry will retry, error on last attempt: TypeError: The header content contains invalid characters
+79 info retry will retry, error on last attempt: TypeError: The header content contains invalid characters
+80 verbose request uri https://registry.npmjs.org/Gruntfile.js
+81 verbose request no auth needed
+82 info attempt registry request try #1 at 11:28:49 PM
+83 http request GET https://registry.npmjs.org/Gruntfile.js
+84 error addLocal Could not install /Users/Crossbell/Desktop/街机克隆游戏/–save-dev
+85 silly fetchPackageMetaData Error: ENOENT: no such file or directory, open '/Users/Crossbell/Desktop/街机克隆游戏/–save-dev'
+85 silly fetchPackageMetaData     at Error (native)
+85 silly fetchPackageMetaData  error for –save-dev { Error: ENOENT: no such file or directory, open '/Users/Crossbell/Desktop/街机克隆游戏/–save-dev'
+85 silly fetchPackageMetaData     at Error (native)
+85 silly fetchPackageMetaData   errno: -2,
+85 silly fetchPackageMetaData   code: 'ENOENT',
+85 silly fetchPackageMetaData   syscall: 'open',
+85 silly fetchPackageMetaData   path: '/Users/Crossbell/Desktop/街机克隆游戏/–save-dev' }
+86 info retry will retry, error on last attempt: TypeError: The header content contains invalid characters
+87 info attempt registry request try #2 at 11:28:59 PM
+88 http request GET https://registry.npmjs.org/grunt-cli
+89 info attempt registry request try #2 at 11:28:59 PM
+90 http request GET https://registry.npmjs.org/npm
+91 info attempt registry request try #2 at 11:28:59 PM
+92 http request GET https://registry.npmjs.org/install
+93 info attempt registry request try #2 at 11:28:59 PM
+94 http request GET https://registry.npmjs.org/grunt
+95 info attempt registry request try #2 at 11:28:59 PM
+96 http request GET https://registry.npmjs.org/touch
+97 info attempt registry request try #2 at 11:28:59 PM
+98 http request GET https://registry.npmjs.org/Gruntfile.js
+99 info retry will retry, error on last attempt: TypeError: The header content contains invalid characters
+100 info retry will retry, error on last attempt: TypeError: The header content contains invalid characters
+101 info retry will retry, error on last attempt: TypeError: The header content contains invalid characters
+102 info retry will retry, error on last attempt: TypeError: The header content contains invalid characters
+103 info retry will retry, error on last attempt: TypeError: The header content contains invalid characters
+104 info retry will retry, error on last attempt: TypeError: The header content contains invalid characters
+105 info attempt registry request try #3 at 11:29:59 PM
+106 http request GET https://registry.npmjs.org/grunt-cli
+107 info attempt registry request try #3 at 11:29:59 PM
+108 http request GET https://registry.npmjs.org/npm
+109 info attempt registry request try #3 at 11:29:59 PM
+110 http request GET https://registry.npmjs.org/install
+111 info attempt registry request try #3 at 11:29:59 PM
+112 http request GET https://registry.npmjs.org/grunt
+113 info attempt registry request try #3 at 11:29:59 PM
+114 http request GET https://registry.npmjs.org/touch
+115 info attempt registry request try #3 at 11:29:59 PM
+116 http request GET https://registry.npmjs.org/Gruntfile.js
+117 silly fetchPackageMetaData TypeError: The header content contains invalid characters
+117 silly fetchPackageMetaData     at ClientRequest.OutgoingMessage.setHeader (_http_outgoing.js:346:11)
+117 silly fetchPackageMetaData     at new ClientRequest (_http_client.js:85:14)
+117 silly fetchPackageMetaData     at Object.exports.request (http.js:31:10)
+117 silly fetchPackageMetaData     at Object.exports.request (https.js:199:15)
+117 silly fetchPackageMetaData     at Request.start (/usr/local/lib/node_modules/npm/node_modules/request/request.js:753:32)
+117 silly fetchPackageMetaData     at Request.end (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1418:10)
+117 silly fetchPackageMetaData     at end (/usr/local/lib/node_modules/npm/node_modules/request/request.js:580:14)
+117 silly fetchPackageMetaData     at Immediate.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:594:7)
+117 silly fetchPackageMetaData     at runCallback (timers.js:574:20)
+117 silly fetchPackageMetaData     at tryOnImmediate (timers.js:554:5)
+117 silly fetchPackageMetaData  error for grunt-cli TypeError: The header content contains invalid characters
+117 silly fetchPackageMetaData     at ClientRequest.OutgoingMessage.setHeader (_http_outgoing.js:346:11)
+117 silly fetchPackageMetaData     at new ClientRequest (_http_client.js:85:14)
+117 silly fetchPackageMetaData     at Object.exports.request (http.js:31:10)
+117 silly fetchPackageMetaData     at Object.exports.request (https.js:199:15)
+117 silly fetchPackageMetaData     at Request.start (/usr/local/lib/node_modules/npm/node_modules/request/request.js:753:32)
+117 silly fetchPackageMetaData     at Request.end (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1418:10)
+117 silly fetchPackageMetaData     at end (/usr/local/lib/node_modules/npm/node_modules/request/request.js:580:14)
+117 silly fetchPackageMetaData     at Immediate.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:594:7)
+117 silly fetchPackageMetaData     at runCallback (timers.js:574:20)
+117 silly fetchPackageMetaData     at tryOnImmediate (timers.js:554:5)
+118 silly fetchPackageMetaData TypeError: The header content contains invalid characters
+118 silly fetchPackageMetaData     at ClientRequest.OutgoingMessage.setHeader (_http_outgoing.js:346:11)
+118 silly fetchPackageMetaData     at new ClientRequest (_http_client.js:85:14)
+118 silly fetchPackageMetaData     at Object.exports.request (http.js:31:10)
+118 silly fetchPackageMetaData     at Object.exports.request (https.js:199:15)
+118 silly fetchPackageMetaData     at Request.start (/usr/local/lib/node_modules/npm/node_modules/request/request.js:753:32)
+118 silly fetchPackageMetaData     at Request.end (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1418:10)
+118 silly fetchPackageMetaData     at end (/usr/local/lib/node_modules/npm/node_modules/request/request.js:580:14)
+118 silly fetchPackageMetaData     at Immediate.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:594:7)
+118 silly fetchPackageMetaData     at runCallback (timers.js:574:20)
+118 silly fetchPackageMetaData     at tryOnImmediate (timers.js:554:5)
+118 silly fetchPackageMetaData  error for npm TypeError: The header content contains invalid characters
+118 silly fetchPackageMetaData     at ClientRequest.OutgoingMessage.setHeader (_http_outgoing.js:346:11)
+118 silly fetchPackageMetaData     at new ClientRequest (_http_client.js:85:14)
+118 silly fetchPackageMetaData     at Object.exports.request (http.js:31:10)
+118 silly fetchPackageMetaData     at Object.exports.request (https.js:199:15)
+118 silly fetchPackageMetaData     at Request.start (/usr/local/lib/node_modules/npm/node_modules/request/request.js:753:32)
+118 silly fetchPackageMetaData     at Request.end (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1418:10)
+118 silly fetchPackageMetaData     at end (/usr/local/lib/node_modules/npm/node_modules/request/request.js:580:14)
+118 silly fetchPackageMetaData     at Immediate.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:594:7)
+118 silly fetchPackageMetaData     at runCallback (timers.js:574:20)
+118 silly fetchPackageMetaData     at tryOnImmediate (timers.js:554:5)
+119 silly fetchPackageMetaData TypeError: The header content contains invalid characters
+119 silly fetchPackageMetaData     at ClientRequest.OutgoingMessage.setHeader (_http_outgoing.js:346:11)
+119 silly fetchPackageMetaData     at new ClientRequest (_http_client.js:85:14)
+119 silly fetchPackageMetaData     at Object.exports.request (http.js:31:10)
+119 silly fetchPackageMetaData     at Object.exports.request (https.js:199:15)
+119 silly fetchPackageMetaData     at Request.start (/usr/local/lib/node_modules/npm/node_modules/request/request.js:753:32)
+119 silly fetchPackageMetaData     at Request.end (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1418:10)
+119 silly fetchPackageMetaData     at end (/usr/local/lib/node_modules/npm/node_modules/request/request.js:580:14)
+119 silly fetchPackageMetaData     at Immediate.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:594:7)
+119 silly fetchPackageMetaData     at runCallback (timers.js:574:20)
+119 silly fetchPackageMetaData     at tryOnImmediate (timers.js:554:5)
+119 silly fetchPackageMetaData  error for install TypeError: The header content contains invalid characters
+119 silly fetchPackageMetaData     at ClientRequest.OutgoingMessage.setHeader (_http_outgoing.js:346:11)
+119 silly fetchPackageMetaData     at new ClientRequest (_http_client.js:85:14)
+119 silly fetchPackageMetaData     at Object.exports.request (http.js:31:10)
+119 silly fetchPackageMetaData     at Object.exports.request (https.js:199:15)
+119 silly fetchPackageMetaData     at Request.start (/usr/local/lib/node_modules/npm/node_modules/request/request.js:753:32)
+119 silly fetchPackageMetaData     at Request.end (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1418:10)
+119 silly fetchPackageMetaData     at end (/usr/local/lib/node_modules/npm/node_modules/request/request.js:580:14)
+119 silly fetchPackageMetaData     at Immediate.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:594:7)
+119 silly fetchPackageMetaData     at runCallback (timers.js:574:20)
+119 silly fetchPackageMetaData     at tryOnImmediate (timers.js:554:5)
+120 silly fetchPackageMetaData TypeError: The header content contains invalid characters
+120 silly fetchPackageMetaData     at ClientRequest.OutgoingMessage.setHeader (_http_outgoing.js:346:11)
+120 silly fetchPackageMetaData     at new ClientRequest (_http_client.js:85:14)
+120 silly fetchPackageMetaData     at Object.exports.request (http.js:31:10)
+120 silly fetchPackageMetaData     at Object.exports.request (https.js:199:15)
+120 silly fetchPackageMetaData     at Request.start (/usr/local/lib/node_modules/npm/node_modules/request/request.js:753:32)
+120 silly fetchPackageMetaData     at Request.end (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1418:10)
+120 silly fetchPackageMetaData     at end (/usr/local/lib/node_modules/npm/node_modules/request/request.js:580:14)
+120 silly fetchPackageMetaData     at Immediate.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:594:7)
+120 silly fetchPackageMetaData     at runCallback (timers.js:574:20)
+120 silly fetchPackageMetaData     at tryOnImmediate (timers.js:554:5)
+120 silly fetchPackageMetaData  error for grunt TypeError: The header content contains invalid characters
+120 silly fetchPackageMetaData     at ClientRequest.OutgoingMessage.setHeader (_http_outgoing.js:346:11)
+120 silly fetchPackageMetaData     at new ClientRequest (_http_client.js:85:14)
+120 silly fetchPackageMetaData     at Object.exports.request (http.js:31:10)
+120 silly fetchPackageMetaData     at Object.exports.request (https.js:199:15)
+120 silly fetchPackageMetaData     at Request.start (/usr/local/lib/node_modules/npm/node_modules/request/request.js:753:32)
+120 silly fetchPackageMetaData     at Request.end (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1418:10)
+120 silly fetchPackageMetaData     at end (/usr/local/lib/node_modules/npm/node_modules/request/request.js:580:14)
+120 silly fetchPackageMetaData     at Immediate.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:594:7)
+120 silly fetchPackageMetaData     at runCallback (timers.js:574:20)
+120 silly fetchPackageMetaData     at tryOnImmediate (timers.js:554:5)
+121 silly fetchPackageMetaData TypeError: The header content contains invalid characters
+121 silly fetchPackageMetaData     at ClientRequest.OutgoingMessage.setHeader (_http_outgoing.js:346:11)
+121 silly fetchPackageMetaData     at new ClientRequest (_http_client.js:85:14)
+121 silly fetchPackageMetaData     at Object.exports.request (http.js:31:10)
+121 silly fetchPackageMetaData     at Object.exports.request (https.js:199:15)
+121 silly fetchPackageMetaData     at Request.start (/usr/local/lib/node_modules/npm/node_modules/request/request.js:753:32)
+121 silly fetchPackageMetaData     at Request.end (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1418:10)
+121 silly fetchPackageMetaData     at end (/usr/local/lib/node_modules/npm/node_modules/request/request.js:580:14)
+121 silly fetchPackageMetaData     at Immediate.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:594:7)
+121 silly fetchPackageMetaData     at runCallback (timers.js:574:20)
+121 silly fetchPackageMetaData     at tryOnImmediate (timers.js:554:5)
+121 silly fetchPackageMetaData  error for touch TypeError: The header content contains invalid characters
+121 silly fetchPackageMetaData     at ClientRequest.OutgoingMessage.setHeader (_http_outgoing.js:346:11)
+121 silly fetchPackageMetaData     at new ClientRequest (_http_client.js:85:14)
+121 silly fetchPackageMetaData     at Object.exports.request (http.js:31:10)
+121 silly fetchPackageMetaData     at Object.exports.request (https.js:199:15)
+121 silly fetchPackageMetaData     at Request.start (/usr/local/lib/node_modules/npm/node_modules/request/request.js:753:32)
+121 silly fetchPackageMetaData     at Request.end (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1418:10)
+121 silly fetchPackageMetaData     at end (/usr/local/lib/node_modules/npm/node_modules/request/request.js:580:14)
+121 silly fetchPackageMetaData     at Immediate.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:594:7)
+121 silly fetchPackageMetaData     at runCallback (timers.js:574:20)
+121 silly fetchPackageMetaData     at tryOnImmediate (timers.js:554:5)
+122 silly fetchPackageMetaData TypeError: The header content contains invalid characters
+122 silly fetchPackageMetaData     at ClientRequest.OutgoingMessage.setHeader (_http_outgoing.js:346:11)
+122 silly fetchPackageMetaData     at new ClientRequest (_http_client.js:85:14)
+122 silly fetchPackageMetaData     at Object.exports.request (http.js:31:10)
+122 silly fetchPackageMetaData     at Object.exports.request (https.js:199:15)
+122 silly fetchPackageMetaData     at Request.start (/usr/local/lib/node_modules/npm/node_modules/request/request.js:753:32)
+122 silly fetchPackageMetaData     at Request.end (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1418:10)
+122 silly fetchPackageMetaData     at end (/usr/local/lib/node_modules/npm/node_modules/request/request.js:580:14)
+122 silly fetchPackageMetaData     at Immediate.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:594:7)
+122 silly fetchPackageMetaData     at runCallback (timers.js:574:20)
+122 silly fetchPackageMetaData     at tryOnImmediate (timers.js:554:5)
+122 silly fetchPackageMetaData  error for Gruntfile.js TypeError: The header content contains invalid characters
+122 silly fetchPackageMetaData     at ClientRequest.OutgoingMessage.setHeader (_http_outgoing.js:346:11)
+122 silly fetchPackageMetaData     at new ClientRequest (_http_client.js:85:14)
+122 silly fetchPackageMetaData     at Object.exports.request (http.js:31:10)
+122 silly fetchPackageMetaData     at Object.exports.request (https.js:199:15)
+122 silly fetchPackageMetaData     at Request.start (/usr/local/lib/node_modules/npm/node_modules/request/request.js:753:32)
+122 silly fetchPackageMetaData     at Request.end (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1418:10)
+122 silly fetchPackageMetaData     at end (/usr/local/lib/node_modules/npm/node_modules/request/request.js:580:14)
+122 silly fetchPackageMetaData     at Immediate.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:594:7)
+122 silly fetchPackageMetaData     at runCallback (timers.js:574:20)
+122 silly fetchPackageMetaData     at tryOnImmediate (timers.js:554:5)
+123 silly rollbackFailedOptional Starting
+124 silly rollbackFailedOptional Finishing
+125 silly runTopLevelLifecycles Starting
+126 silly runTopLevelLifecycles Finishing
+127 silly install printInstalled
+128 verbose stack Error: ENOENT: no such file or directory, open '/Users/Crossbell/Desktop/街机克隆游戏/–save-dev'
+128 verbose stack     at Error (native)
+129 verbose cwd /Users/Crossbell/Desktop/街机克隆游戏
+130 error Darwin 16.4.0
+131 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "-g" "grunt-cli" "npm" "install" "–save-dev" "grunt" "touch" "Gruntfile.js"
+132 error node v6.5.0
+133 error npm  v3.10.3
+134 error path /Users/Crossbell/Desktop/街机克隆游戏/–save-dev
+135 error code ENOENT
+136 error errno -2
+137 error syscall open
+138 error enoent ENOENT: no such file or directory, open '/Users/Crossbell/Desktop/街机克隆游戏/–save-dev'
+139 error enoent ENOENT: no such file or directory, open '/Users/Crossbell/Desktop/街机克隆游戏/–save-dev'
+139 error enoent This is most likely not a problem with npm itself
+139 error enoent and is related to npm not being able to find a file.
+140 verbose exit [ -2, true ]

@@ -71,18 +71,22 @@ var Engine = (function(global) {
     function checkCollisions(){
         
         function isCollision(a,b){
-            return Math.abs(a.x - b.x) < 30 && Math.abs(a.y - b.y) < 30
+            return Math.abs(a.x - b.x) < 30 && Math.abs(a.y - b.y) < 30 ;
         }
 
         allEnemies.forEach(
             function(enemy){
                 if(isCollision(player, enemy)){
-                    reset()
+                    reset();
                 }
             });
 
         if(player.y < 0){
-            reset()
+            reset();
+            setTimeout(
+                function(){
+                    alert("Congraduations! You Win!");
+                }, 30);
         }
     }
 
@@ -147,8 +151,8 @@ var Engine = (function(global) {
      * 函数调用一次。
      */
     function reset() {
-        player.x = 205
-        player.y = 410
+        player.x = 205;
+        player.y = 410;
     }
 
     /* 紧接着我们来加载我们知道的需要来绘制我们游戏关卡的图片。然后把 init 方法设置为回调函数。

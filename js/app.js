@@ -1,3 +1,4 @@
+"use strict";
 // 这是我们的玩家要躲避的敌人 
 var Enemy = function(y) {
     // 要应用到每个敌人的实例的变量写在这里
@@ -6,8 +7,8 @@ var Enemy = function(y) {
     // 敌人的图片或者雪碧图，用一个我们提供的工具函数来轻松的加载文件
     this.sprite = 'images/enemy-bug.png';
     this.x = RandomNum(-1000,-100);
-    this.y = y
-    this.speed = RandomNum(100,400)
+    this.y = y;
+    this.speed = RandomNum(100,400);
 
 };
 // 此为游戏必须的函数，用来更新敌人的位置
@@ -15,10 +16,10 @@ var Enemy = function(y) {
 Enemy.prototype.update = function(dt) {
     // 你应该给每一次的移动都乘以 dt 参数，以此来保证游戏在所有的电脑上
     // 都是以同样的速度运行的
-    this.x = this.x + this.speed * dt
+    this.x = this.x + this.speed * dt;
     if(this.x > 505) {
-        this.x = RandomNum(-3000,-100)
-        this.speed = RandomNum(100,400)
+        this.x = RandomNum(-3000,-100);
+        this.speed = RandomNum(100,400);
     }
 };
 
@@ -31,8 +32,8 @@ Enemy.prototype.render = function() {
 // 这个类需要一个 update() 函数， render() 函数和一个 handleInput()函数
 var player = function(){
     this.sprite = 'images/char-boy.png';
-    this.y = 410
-    this.x = 205
+    this.y = 410;
+    this.x = 205;
 };
 
 player.prototype.update = function() {
@@ -46,21 +47,21 @@ player.prototype.render = function() {
 player.prototype.handleInput = function(action) {
     switch(action){
         case "left" : if(this.x > 101) {this.x = this.x - 101;}break;
-        case "right": if( this.x < 395){this.x = this.x + 101};break;
+        case "right": if( this.x < 395){this.x = this.x + 101;}break;
         case "up" :                     this.y = this.y - 83;break;
-        case "down":  if (this.y < 409){this.y = this.y + 83}
+        case "down":  if (this.y < 409){this.y = this.y + 83;}
     }
-}
+};
 
 // 现在实例化你的所有对象
 // 把所有敌人的对象都放进一个叫 allEnemies 的数组里面
 // 把玩家对象放进一个叫 player 的变量里面
-var allEnemies = []
-var Ycoor = [60,140,230]
+var allEnemies = [];
+var Ycoor = [60,140,230];
 Ycoor.forEach( 
     function(y){
-        allEnemies.push(new Enemy(y))
-        allEnemies.push(new Enemy(y))
+        allEnemies.push(new Enemy(y));
+        allEnemies.push(new Enemy(y));
     });
 
 var player = new player();
