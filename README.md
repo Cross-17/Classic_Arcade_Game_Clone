@@ -9,3 +9,5 @@ At behinning of the game the little boy would appear on the bottom row of the sc
 User could hit "left","right","up" and "down" key to move the boy. Fail to dodge the car would lead to reset of the game.
 
 Once user cross the street and win the game, the game also reset.
+
+Check it online at https://veendam.github.io/Classic_Arcade_Game_Clone

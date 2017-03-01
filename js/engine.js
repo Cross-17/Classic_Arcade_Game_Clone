@@ -71,7 +71,7 @@ var Engine = (function(global) {
     function checkCollisions(){
         
         function isCollision(a,b){
-            return Math.abs(a.x - b.x) < 30 && Math.abs(a.y - b.y) < 30 ;
+            return Math.abs(a.x - b.x) < 60 && Math.abs(a.y - b.y) < 30 ;
         }
 
         allEnemies.forEach(

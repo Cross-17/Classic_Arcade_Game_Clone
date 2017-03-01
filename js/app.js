@@ -6,10 +6,14 @@ var Enemy = function(y) {
 
     // 敌人的图片或者雪碧图，用一个我们提供的工具函数来轻松的加载文件
     this.sprite = 'images/enemy-bug.png';
-    this.x = RandomNum(-1000,-100);
+    this.x = Enemy.RandomNum(-1000,-100);
     this.y = y;
-    this.speed = RandomNum(100,400);
+    this.speed = Enemy.RandomNum(100,400);
 
+};
+
+Enemy.RandomNum = function(min, max) {
+    return Math.floor(Math.random() * (max - min + 1) + min);
 };
 // 此为游戏必须的函数，用来更新敌人的位置
 // 参数: dt ，表示时间间隙
@@ -18,8 +22,8 @@ Enemy.prototype.update = function(dt) {
     // 都是以同样的速度运行的
     this.x = this.x + this.speed * dt;
     if(this.x > 505) {
-        this.x = RandomNum(-3000,-100);
-        this.speed = RandomNum(100,400);
+        this.x = Enemy.RandomNum(-3000,-100);
+        this.speed = Enemy.RandomNum(100,400);
     }
 };
 
@@ -30,21 +34,19 @@ Enemy.prototype.render = function() {
 
 // 现在实现你自己的玩家类
 // 这个类需要一个 update() 函数， render() 函数和一个 handleInput()函数
-var player = function(){
+var Player = function(){
     this.sprite = 'images/char-boy.png';
     this.y = 410;
     this.x = 205;
 };
-
-player.prototype.update = function() {
-
-};
-
-player.prototype.render = function() {
+Player.prototype = Object.create(Enemy.prototype);
+Player.prototype.constructor = Player;
+Player.prototype.update = function(){};
+Player.prototype.render = function() {
     ctx.drawImage(Resources.get(this.sprite), this.x, this.y);
 };
 
-player.prototype.handleInput = function(action) {
+Player.prototype.handleInput = function(action) {
     switch(action){
         case "left" : if(this.x > 101) {this.x = this.x - 101;}break;
         case "right": if( this.x < 395){this.x = this.x + 101;}break;
@@ -64,7 +66,7 @@ Ycoor.forEach(
         allEnemies.push(new Enemy(y));
     });
 
-var player = new player();
+var player = new Player();
 
 // 这段代码监听游戏玩家的键盘点击事件并且代表将按键的关键数字送到 Play.handleInput()
 // 方法里面。你不需要再更改这段代码了。
